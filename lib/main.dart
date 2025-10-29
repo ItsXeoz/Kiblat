@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kiblat/home_page.dart';
+import 'package:kiblat/main_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.transparent,
         ),
       ),
-      home: const HomePage(),
+      home: const MainPage(),
     );
   }
 }
